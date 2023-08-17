@@ -5,32 +5,40 @@ import // edit handler*
 
 
 const createTask = (userInput) => {
+    debugger
     //Create task item
     const taskContainer = document.createElement('div');
-    taskContainer.innerHTML = 'id = ' + `${data.items.length + 1}`;
-        
+    taskContainer.id = userInput.id;
+    console.log(taskContainer.id); 
 
     //Create task item text
     const taskText = document.createElement('p');
-    taskText.innerText = userInput;
+    taskText.innerText = userInput.text;
+    console.log(String(taskText)); 
 
     //Create edit button
     const taskEditBtn = document.createElement('button');
-    taskEditBtn.classList.add = 'editTaskBtn';
+    taskEditBtn.className = 'editTaskBtn';
+    taskEditBtn.innerText = 'edit';
+    
 
     //Create delete button
     const taskDeleteBtn = document.createElement('button');
-    taskEditBtn.classList.add = 'deleteTaskBtn';
-
+    taskDeleteBtn.className = 'deleteTaskBtn';
+    taskDeleteBtn.innerText = 'delete';
+    
     //append all together
     taskContainer.append(taskText, taskEditBtn, taskDeleteBtn);
+    
      
+    // Trying to use the event bubbling way.
 
-    //Event for the edit (i don't remember why put it here).
+    //Event for the edit
+
     //taskEditBtn.addEventListener('click', editHandler);
 
-    //Event for the delete (i don't remember why put it here).
-    // taskDeleteBtn.addEventListener('click', delHandler);
+    //Event for the delete
+    //taskDeleteBtn.addEventListener('click', deleteHandler);
     
     return taskContainer; 
 };

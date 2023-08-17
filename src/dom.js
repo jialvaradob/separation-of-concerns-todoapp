@@ -6,6 +6,7 @@ const dom = {
     clearBtn: document.querySelector('#btn-clear-all'),
     taskList: document.querySelector('#div-task'),
 };
+console.log(String(dom.submitBtn.value));
 
 export default dom;
 

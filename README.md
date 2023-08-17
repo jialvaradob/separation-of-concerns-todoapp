@@ -17,6 +17,7 @@
 
 > The objective of the project is to practice separation of concern in
 > JavaScript.
+> Applying all the different strategies, methods, use of resources and coding philosophies
 
 ## Screenshots
 
@@ -31,7 +32,7 @@
 
 ## Setup
 
-clone the repo and start using the stop watch.
+clone the repo and rename the filenames.
 
 ## Code Examples
 
@@ -43,9 +44,11 @@ clone the repo and start using the stop watch.
 
 List of features ready and Todos for future development
 
--
--
--
+- Can type and add new tasks represented by a short text.
+- The tasks are organized in a top-to-bottom manner putting new ones a the top. ()
+- Modify the tasks names.
+- Delete the tasks one by one or altogether.
+
 
 To-do list:
 
