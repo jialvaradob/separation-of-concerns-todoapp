@@ -2,7 +2,7 @@
 //Then it locates the text inside the p, removes it and then adds a field instead.
 //Keeping the values stored, in case the user doesn't change it.
 
-let inputValue = ""; 
+
 const editTaskHandler = (event) => {
 
     if (event.target.classList.contains("editTaskBtn")) {
