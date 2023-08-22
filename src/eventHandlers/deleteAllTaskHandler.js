@@ -1,3 +1,4 @@
+// Simple loop to remove every element in the task list.
 
 const deleteAllTaskHandler = () => {
     debugger

@@ -1,4 +1,4 @@
-
+//Simple target and remove the self contained div.
 
 const deleteTaskHandler = (event) => {
   debugger
